@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct SendButton: View {
+	@Binding var text: String
+	
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+			Button(action: {
+				self.sendMessage()
+			}, label: {
+				Image(systemName: "paperplane")
+					.font(.system(size: 33))
+					.aspectRatio(contentMode: .fit)
+					.frame(width: 55, height: 55)
+					.foregroundColor(.white)
+					.background(.blue)
+					.clipShape(Circle())
+			})
     }
+	
+	func sendMessage() {
+		guard !text.isEmpty else {
+			return
+		}
+	}
 }
 
 #Preview {
