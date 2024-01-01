@@ -32,5 +32,5 @@ struct SendButton: View {
 }
 
 #Preview {
-    SendButton()
+	SendButton(text: Binding<String>.constant(""))
 }

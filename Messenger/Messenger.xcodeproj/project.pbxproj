@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CDD36CF42B420BC100E93C68 /* MessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD36CF32B420BC100E93C68 /* MessengerApp.swift */; };
-		CDD36CF62B420BC100E93C68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD36CF52B420BC100E93C68 /* ContentView.swift */; };
+		CDD36CF62B420BC100E93C68 /* ConversationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD36CF52B420BC100E93C68 /* ConversationListView.swift */; };
 		CDD36CF82B420BC200E93C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD36CF72B420BC200E93C68 /* Assets.xcassets */; };
 		CDD36CFB2B420BC200E93C68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD36CFA2B420BC200E93C68 /* Preview Assets.xcassets */; };
 		CDD36D052B420BC200E93C68 /* MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD36D042B420BC200E93C68 /* MessengerTests.swift */; };
@@ -44,7 +44,7 @@
 /* Begin PBXFileReference section */
 		CDD36CF02B420BC100E93C68 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD36CF32B420BC100E93C68 /* MessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerApp.swift; sourceTree = "<group>"; };
-		CDD36CF52B420BC100E93C68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDD36CF52B420BC100E93C68 /* ConversationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationListView.swift; sourceTree = "<group>"; };
 		CDD36CF72B420BC200E93C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDD36CFA2B420BC200E93C68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDD36D002B420BC200E93C68 /* MessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +146,7 @@
 		CDD36D1D2B420BFE00E93C68 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CDD36CF52B420BC100E93C68 /* ContentView.swift */,
+				CDD36CF52B420BC100E93C68 /* ConversationListView.swift */,
 				CDD36D202B420CA300E93C68 /* SignInView.swift */,
 				CDD36D222B420CBD00E93C68 /* SignUpView.swift */,
 				CDD36D242B420CDD00E93C68 /* ChatView.swift */,
@@ -311,7 +311,7 @@
 				CDD36D2D2B420D4F00E93C68 /* Message.swift in Sources */,
 				CDD36D252B420CDD00E93C68 /* ChatView.swift in Sources */,
 				CDD36D292B420D1100E93C68 /* SearchView.swift in Sources */,
-				CDD36CF62B420BC100E93C68 /* ContentView.swift in Sources */,
+				CDD36CF62B420BC100E93C68 /* ConversationListView.swift in Sources */,
 				CDD36D272B420CF500E93C68 /* ChatRow.swift in Sources */,
 				CDD36CF42B420BC100E93C68 /* MessengerApp.swift in Sources */,
 				CDD36D2F2B420D7600E93C68 /* AppStateModel.swift in Sources */,

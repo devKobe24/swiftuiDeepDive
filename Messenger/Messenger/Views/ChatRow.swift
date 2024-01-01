@@ -14,7 +14,10 @@ struct ChatRow: View {
 		return type == .sent
 	}
 	
-	init(type: MessageType) {
+	let text: String
+	
+	init(text: String, type: MessageType) {
+		self.text = text
 		self.type = type
 	}
 	
@@ -32,7 +35,7 @@ struct ChatRow: View {
 				}
 				
 				HStack{
-					Text("Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.")
+					Text(text)
 						.foregroundColor(isSender ? Color.white : Color(.label))
 						.padding()
 				}
@@ -48,7 +51,7 @@ struct ChatRow: View {
 
 #Preview {
 	Group {
-		ChatRow(type: .sent)
-		ChatRow(type: .received)
+		ChatRow(text: "text", type: .sent)
+		ChatRow(text: "text", type: .received)
 	}
 }
